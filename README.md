@@ -1,7 +1,7 @@
 # IPSegmentScanner
 :computer:Smarter network segment scanner! e.g. If you tell scanner to scan '192.0.1.1', it will be scan '192.0.1.1', '192.1.1.1', '192.2.1.1'... by your customize!
 
-### Use python 2 plz!
+### Use Python 2.* plz!
 
 # e.g.
 
@@ -9,10 +9,12 @@ If you want to scan segment C, Type:
 python scanner.py -i 10.2.0.1 -r 0-20 -d
 
 i - Specified IP address
+
 r - Specified IP scan range
+
 d - Show detials
 
-you will got results:
+You will got results:
 
 ```
 Scanning 10.2.0-20.1
