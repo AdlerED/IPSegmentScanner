@@ -3,6 +3,25 @@
 
 ### Use Python 2.* plz!
 
+### You must install "fping" to run this application!
+
+#### For macOS:
+```
+brew install fping
+```
+
+#### For Linux:
+
+```
+apt-get install -y fping
+```
+
+or
+
+```
+yum install -y fping
+```
+
 # e.g.
 
 If you want to scan segment C, Type:
