@@ -25,13 +25,15 @@ yum install -y fping
 # e.g.
 
 If you want to scan segment C, Type:
-python scanner.py -i 10.2.0.1 -r 0-20 -d
+python scanner.py -i 10.2.0.1 -r 0-20 -d -t 0
 
 i - Specified IP address
 
 r - Specified IP scan range
 
 d - Show detials
+
+t - Set timeout (Recommend 0 as second, if not working try 1)
 
 You will got results:
 
